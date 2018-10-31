@@ -33,3 +33,6 @@ Read on in effective go [here](https://golang.org/doc/effective_go.html).
 
 ### The Little Go Book
 This is a more extensive read than effective go, but it has greater detail. Find the Little Book [here](https://www.openmymind.net/assets/go/go.pdf).
+
+### Project Order/Folder Strucutre
+We are fully invested in the [golang-standards](https://github.com/golang-standards) approach to [project layout](https://github.com/golang-standards/project-layout).

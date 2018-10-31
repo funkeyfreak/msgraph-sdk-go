@@ -13,6 +13,9 @@ This project is writtin using the principles defined in [effective go](https://g
 2. Install glide
   * [Glide](https://github.com/Masterminds/glide) is a dependency manager for golang, and we'll use it to manage dependecies in this project.
 
+### Tooling
+[hub](https://hub.github.com/) is a powerful tool that can give you a boost if your project is on github. 
+
 ## Getting Started With Go
 So, you want to learn go? Awesome - we don't have all of the answers but we can give you a starting point.
 
@@ -33,3 +36,6 @@ Read on in effective go [here](https://golang.org/doc/effective_go.html).
 
 ### The Little Go Book
 This is a more extensive read than effective go, but it has greater detail. Find the Little Book [here](https://www.openmymind.net/assets/go/go.pdf).
+
+### Project Order/Folder Strucutre
+We are fully invested in the [golang-standards](https://github.com/golang-standards) approach to [project layout](https://github.com/golang-standards/project-layout).

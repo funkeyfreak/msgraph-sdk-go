@@ -1,0 +1,11 @@
+# CollectionOfDataPolicyOperation
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Value** | [**[]MicrosoftGraphDataPolicyOperation**](microsoft.graph.dataPolicyOperation.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

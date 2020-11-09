@@ -1,0 +1,18 @@
+# ScheduleChangeRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**AssignedTo** | [**interface{}**](.md) |  | [optional] 
+**ManagerActionDateTime** | [**time.Time**](time.Time.md) |  | [optional] 
+**ManagerActionMessage** | **string** |  | [optional] 
+**ManagerUserId** | **string** |  | [optional] 
+**SenderDateTime** | [**time.Time**](time.Time.md) |  | [optional] 
+**SenderMessage** | **string** |  | [optional] 
+**SenderUserId** | **string** |  | [optional] 
+**State** | [**interface{}**](.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,13 @@
+# WindowsInformationProtectionAppLearningSummary
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**ApplicationName** | **string** | Application Name | [optional] 
+**ApplicationType** | [**interface{}**](.md) | Application Type | [optional] 
+**DeviceCount** | **int32** | Device Count | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

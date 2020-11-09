@@ -1,0 +1,169 @@
+# \DeviceManagementIosUpdateDeviceStatusApi
+
+All URIs are relative to *https://graph.microsoft.com/v1.0*
+
+Method | HTTP request | Description
+------------- | ------------- | -------------
+[**DeviceManagementCreateIosUpdateStatuses**](DeviceManagementIosUpdateDeviceStatusApi.md#DeviceManagementCreateIosUpdateStatuses) | **Post** /deviceManagement/iosUpdateStatuses | Create new navigation property to iosUpdateStatuses for deviceManagement
+[**DeviceManagementGetIosUpdateStatuses**](DeviceManagementIosUpdateDeviceStatusApi.md#DeviceManagementGetIosUpdateStatuses) | **Get** /deviceManagement/iosUpdateStatuses/{iosUpdateDeviceStatus-id} | Get iosUpdateStatuses from deviceManagement
+[**DeviceManagementListIosUpdateStatuses**](DeviceManagementIosUpdateDeviceStatusApi.md#DeviceManagementListIosUpdateStatuses) | **Get** /deviceManagement/iosUpdateStatuses | Get iosUpdateStatuses from deviceManagement
+[**DeviceManagementUpdateIosUpdateStatuses**](DeviceManagementIosUpdateDeviceStatusApi.md#DeviceManagementUpdateIosUpdateStatuses) | **Patch** /deviceManagement/iosUpdateStatuses/{iosUpdateDeviceStatus-id} | Update the navigation property iosUpdateStatuses in deviceManagement
+
+
+
+## DeviceManagementCreateIosUpdateStatuses
+
+> MicrosoftGraphIosUpdateDeviceStatus DeviceManagementCreateIosUpdateStatuses(ctx, microsoftGraphIosUpdateDeviceStatus)
+
+Create new navigation property to iosUpdateStatuses for deviceManagement
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**microsoftGraphIosUpdateDeviceStatus** | [**MicrosoftGraphIosUpdateDeviceStatus**](MicrosoftGraphIosUpdateDeviceStatus.md)| New navigation property | 
+
+### Return type
+
+[**MicrosoftGraphIosUpdateDeviceStatus**](microsoft.graph.iosUpdateDeviceStatus.md)
+
+### Authorization
+
+[azureaadv2](../README.md#azureaadv2)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json, */*
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## DeviceManagementGetIosUpdateStatuses
+
+> MicrosoftGraphIosUpdateDeviceStatus DeviceManagementGetIosUpdateStatuses(ctx, iosUpdateDeviceStatusId, optional)
+
+Get iosUpdateStatuses from deviceManagement
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**iosUpdateDeviceStatusId** | **string**| key: iosUpdateDeviceStatus-id of iosUpdateDeviceStatus | 
+ **optional** | ***DeviceManagementGetIosUpdateStatusesOpts** | optional parameters | nil if no parameters
+
+### Optional Parameters
+
+Optional parameters are passed through a pointer to a DeviceManagementGetIosUpdateStatusesOpts struct
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+
+ **select_** | [**optional.Interface of []string**](string.md)| Select properties to be returned | 
+ **expand** | [**optional.Interface of []string**](string.md)| Expand related entities | 
+
+### Return type
+
+[**MicrosoftGraphIosUpdateDeviceStatus**](microsoft.graph.iosUpdateDeviceStatus.md)
+
+### Authorization
+
+[azureaadv2](../README.md#azureaadv2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json, */*
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## DeviceManagementListIosUpdateStatuses
+
+> CollectionOfIosUpdateDeviceStatus DeviceManagementListIosUpdateStatuses(ctx, optional)
+
+Get iosUpdateStatuses from deviceManagement
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+ **optional** | ***DeviceManagementListIosUpdateStatusesOpts** | optional parameters | nil if no parameters
+
+### Optional Parameters
+
+Optional parameters are passed through a pointer to a DeviceManagementListIosUpdateStatusesOpts struct
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **top** | **optional.Int32**| Show only the first n items | 
+ **skip** | **optional.Int32**| Skip the first n items | 
+ **search** | **optional.String**| Search items by search phrases | 
+ **filter** | **optional.String**| Filter items by property values | 
+ **count** | **optional.Bool**| Include count of items | 
+ **orderby** | [**optional.Interface of []string**](string.md)| Order items by property values | 
+ **select_** | [**optional.Interface of []string**](string.md)| Select properties to be returned | 
+ **expand** | [**optional.Interface of []string**](string.md)| Expand related entities | 
+
+### Return type
+
+[**CollectionOfIosUpdateDeviceStatus**](Collection_of_iosUpdateDeviceStatus.md)
+
+### Authorization
+
+[azureaadv2](../README.md#azureaadv2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json, */*
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## DeviceManagementUpdateIosUpdateStatuses
+
+> DeviceManagementUpdateIosUpdateStatuses(ctx, iosUpdateDeviceStatusId, microsoftGraphIosUpdateDeviceStatus)
+
+Update the navigation property iosUpdateStatuses in deviceManagement
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**iosUpdateDeviceStatusId** | **string**| key: iosUpdateDeviceStatus-id of iosUpdateDeviceStatus | 
+**microsoftGraphIosUpdateDeviceStatus** | [**MicrosoftGraphIosUpdateDeviceStatus**](MicrosoftGraphIosUpdateDeviceStatus.md)| New navigation property values | 
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+[azureaadv2](../README.md#azureaadv2)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: */*
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+

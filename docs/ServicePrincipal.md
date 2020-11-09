@@ -1,0 +1,53 @@
+# ServicePrincipal
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**AccountEnabled** | **bool** |  | [optional] 
+**AddIns** | [**[]MicrosoftGraphAddIn**](microsoft.graph.addIn.md) |  | [optional] 
+**AlternativeNames** | **[]string** |  | [optional] 
+**AppDescription** | **string** |  | [optional] 
+**AppDisplayName** | **string** |  | [optional] 
+**AppId** | **string** |  | [optional] 
+**ApplicationTemplateId** | **string** |  | [optional] 
+**AppOwnerOrganizationId** | **string** |  | [optional] 
+**AppRoleAssignmentRequired** | **bool** |  | [optional] 
+**AppRoles** | [**[]MicrosoftGraphAppRole**](microsoft.graph.appRole.md) |  | [optional] 
+**Description** | **string** |  | [optional] 
+**DisplayName** | **string** |  | [optional] 
+**Homepage** | **string** |  | [optional] 
+**Info** | [**interface{}**](.md) |  | [optional] 
+**KeyCredentials** | [**[]MicrosoftGraphKeyCredential**](microsoft.graph.keyCredential.md) |  | [optional] 
+**LoginUrl** | **string** |  | [optional] 
+**LogoutUrl** | **string** |  | [optional] 
+**Notes** | **string** |  | [optional] 
+**NotificationEmailAddresses** | **[]string** |  | [optional] 
+**Oauth2PermissionScopes** | [**[]MicrosoftGraphPermissionScope**](microsoft.graph.permissionScope.md) |  | [optional] 
+**PasswordCredentials** | [**[]MicrosoftGraphPasswordCredential**](microsoft.graph.passwordCredential.md) |  | [optional] 
+**PreferredSingleSignOnMode** | **string** |  | [optional] 
+**PreferredTokenSigningKeyThumbprint** | **string** |  | [optional] 
+**ReplyUrls** | **[]string** |  | [optional] 
+**SamlSingleSignOnSettings** | [**interface{}**](.md) |  | [optional] 
+**ServicePrincipalNames** | **[]string** |  | [optional] 
+**ServicePrincipalType** | **string** |  | [optional] 
+**Tags** | **[]string** |  | [optional] 
+**TokenEncryptionKeyId** | **string** |  | [optional] 
+**AppRoleAssignedTo** | [**[]MicrosoftGraphAppRoleAssignment**](microsoft.graph.appRoleAssignment.md) |  | [optional] 
+**AppRoleAssignments** | [**[]MicrosoftGraphAppRoleAssignment**](microsoft.graph.appRoleAssignment.md) |  | [optional] 
+**ClaimsMappingPolicies** | [**[]MicrosoftGraphClaimsMappingPolicy**](microsoft.graph.claimsMappingPolicy.md) |  | [optional] 
+**CreatedObjects** | [**[]MicrosoftGraphDirectoryObject**](microsoft.graph.directoryObject.md) |  | [optional] 
+**DelegatedPermissionClassifications** | [**[]MicrosoftGraphDelegatedPermissionClassification**](microsoft.graph.delegatedPermissionClassification.md) |  | [optional] 
+**Endpoints** | [**[]MicrosoftGraphEndpoint**](microsoft.graph.endpoint.md) |  | [optional] 
+**HomeRealmDiscoveryPolicies** | [**[]MicrosoftGraphHomeRealmDiscoveryPolicy**](microsoft.graph.homeRealmDiscoveryPolicy.md) |  | [optional] 
+**MemberOf** | [**[]MicrosoftGraphDirectoryObject**](microsoft.graph.directoryObject.md) |  | [optional] 
+**Oauth2PermissionGrants** | [**[]MicrosoftGraphOAuth2PermissionGrant**](microsoft.graph.oAuth2PermissionGrant.md) |  | [optional] 
+**OwnedObjects** | [**[]MicrosoftGraphDirectoryObject**](microsoft.graph.directoryObject.md) |  | [optional] 
+**Owners** | [**[]MicrosoftGraphDirectoryObject**](microsoft.graph.directoryObject.md) |  | [optional] 
+**TokenIssuancePolicies** | [**[]MicrosoftGraphTokenIssuancePolicy**](microsoft.graph.tokenIssuancePolicy.md) |  | [optional] 
+**TokenLifetimePolicies** | [**[]MicrosoftGraphTokenLifetimePolicy**](microsoft.graph.tokenLifetimePolicy.md) |  | [optional] 
+**TransitiveMemberOf** | [**[]MicrosoftGraphDirectoryObject**](microsoft.graph.directoryObject.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
